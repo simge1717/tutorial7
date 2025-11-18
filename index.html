@@ -40,17 +40,14 @@
          <img src="rflogo.gif" alt="The Robert Frost Web Page" />
       </header>
 
-      <figure>
+     <figure>
+    <figcaption>Robert Frost reads <cite>The Road Not Taken</cite></figcaption>
 
-         <figcaption>Robert Frost reads <cite>The Road Not Taken</cite></figcaption>
-
-          <video width="320" height="200" controls>
-        <source src="Robert Frost .mp4" type="video/mp4">
-          
-       
-    </video>
-
-      </figure>
+    <object width="320" height="200" data="https://www.youtube.com/v/ie2Mspukx14?fs=0">
+        <param name="movie" value="https://www.youtube.com/v/ie2Mspukx14?fs=0" />
+        <embed src="https://www.youtube.com/v/ie2Mspukx14?fs=0" width="320" height="200"></embed>
+    </object>
+</figure>
 
       <section id="main">
 
@@ -85,10 +82,14 @@
 <audio controls>
     <source src="fireice.mp3" type="audio/mpeg">
     <source src="fireice.ogg" type="audio/ogg">
-    <object width="345" height="21" data="fireice.swf">
-        <param name="movie" value="fireice.swf" />
-        <embed src="fireice.swf" width="345" height="21"></embed>
-    </object>
+
+    <!-- Fallback Flash player -->
+   <object width="345" height="21" data="fireice.swf">
+    <param name="movie" value="fireice.swf" />
+    <embed src="fireice.swf" width="345" height="21"></embed>
+</object>
+
+    
 </audio>
 
 
@@ -109,17 +110,18 @@
          <section class="poem">
             <h2>Devotion</h2>
 
-             <audio controls>
-        <source src="devotion.mp3" type="audio/mpeg">
-        <source src="devotion.ogg" type="audio/ogg">
+            <audio controls>
+    <source src="devotion.mp3" type="audio/mpeg">
+    <source src="devotion.ogg" type="audio/ogg">
 
-       
-        <object width="345" height="21" data="devotion.swf">
-            <param name="movie" value="devotion.swf" />
-            <embed src="devotion.swf" width="345" height="21"></embed>
-            
-        </object>
-    </audio>
+    <!-- Fallback Flash player -->
+    <object width="345" height="21" data="devotion.swf">
+        <param name="movie" value="devotion.swf" />
+        <embed src="devotion.swf" width="345" height="21"></embed>
+    </object>
+
+    
+</audio>
 
 
             <p>
