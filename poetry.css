@@ -123,25 +123,3 @@ section.poem h2 {
 section.poem:first-of-type {
    border-right: 1px solid black;
 }
- 
-
-section.poem:first-of-type {
-   border-right: 1px solid black;
-}
-
-
-object, embed {
-    width: 345px;
-    height: 21px;
-}
-
-section.poem:first-of-type {
-   border-right: 1px solid black;
-}
-
-
-audio object,
-audio embed {
-    width: 320px;
-    height: 200px;
-}
